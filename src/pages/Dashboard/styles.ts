@@ -4,6 +4,7 @@ import { FlatList } from 'react-native';
 interface Product {
   id: string;
   title: string;
+  // eslint-disable-next-line camelcase
   image_url: string;
   price: number;
 }
